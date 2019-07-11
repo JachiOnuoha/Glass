@@ -43,12 +43,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rzs-jW-nxh">
-                                <rect key="frame" x="92" y="245" width="312" height="30"/>
+                                <rect key="frame" x="92" y="242" width="312" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Word Document"/>
+                                <state key="normal" title="PDF Document 2"/>
                                 <connections>
-                                    <action selector="docButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ofZ-YB-fC9"/>
+                                    <action selector="pdf2Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F0r-Ul-iuK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -59,11 +59,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2868.115942028986" y="133.92857142857142"/>
+            <point key="canvasLocation" x="2972" y="134"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PZI-cg-h5r">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HUu-jb-Hjp" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1uM-QD-kyZ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QBI-H9-Dq0">
@@ -75,7 +76,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="PAA-wT-hMQ"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HUu-jb-Hjp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1957.9710144927537" y="133.92857142857142"/>
         </scene>

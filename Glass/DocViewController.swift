@@ -7,17 +7,13 @@
 //
 
 import UIKit
+import WebKit
 
-
-class DocViewController: UIWebView{
-    
-    
-    
+class DocViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.view.addSubview(view)
     }
-    
-    
     
 }
